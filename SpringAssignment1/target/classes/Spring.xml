@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
+
+
+    <!-- CONSTRUCTOR INJECTION FOR PHONE 1  -->
+    <bean id="Phone1" class="org.example.Phone">
+        <constructor-arg index="0" value="123-456-6789"/>
+    </bean>
+    <!-- CONSTRUCTOR INJECTION FOR PHONE 2  -->
+    <bean id="Phone2" class="org.example.Phone">
+        <constructor-arg index="0" value="987-654-4321"/>
+    </bean>
+    <!-- CONSTRUCTOR INJECTION FOR PHONE 3  -->
+    <bean id="Phone3" class="org.example.Phone">
+        <constructor-arg index="0" value="111-222-3333"/>
+    </bean>
+    <!-- CONSTRUCTOR INJECTION FOR ADDRESS1   -->
+    <bean id="Address1" class="org.example.Address">
+        <constructor-arg index="0" value="Random City"/>
+        <constructor-arg index="1" value="Random State"/>
+        <constructor-arg index="2" value="Random Country"/>
+        <constructor-arg index="3" value="12345"/>
+    </bean>
+    <!-- CONSTRUCTOR INJECTION FOR STUDENT1   -->
+    <bean id="Student1" class="org.example.Student">
+        <constructor-arg index="0" value="555"/>
+        <constructor-arg index="1" value="Luis"/>
+        <constructor-arg index="2">
+            <list>
+                <ref bean="Phone1"/>
+                <ref bean="Phone2"/>
+                <ref bean="Phone3"/>
+            </list>
+        </constructor-arg>
+        <constructor-arg index="3" ref="Address1"/>
+    </bean>
+
+    <!-- SETTER INJECTION FOR PHONE 4  -->
+    <bean id="Phone4" class="org.example.Phone">
+        <property name="mob" value="444-444-4444"/>
+    </bean>
+    <!-- SETTER INJECTION FOR PHONE 5  -->
+    <bean id="Phone5" class="org.example.Phone">
+        <property name="mob" value="555-555-5555"/>
+    </bean>
+    <!-- SETTER INJECTION FOR PHONE 6  -->
+    <bean id="Phone6" class="org.example.Phone">
+        <property name="mob" value="000-000-0000"/>
+    </bean>
+    <!-- SETTER INJECTION FOR ADDRESS2   -->
+    <bean id="Address2" class="org.example.Address">
+        <property name="city" value="Another Random City"/>
+        <property name="state" value="Another Random State"/>
+        <property name="country" value="Another Random Country"/>
+        <property name="zipcode" value="54321"/>
+    </bean>
+    <!-- SETTER INJECTION FOR STUDENT1   -->
+    <bean id="Student2" class="org.example.Student">
+        <property name="id" value="444"/>
+        <property name="name" value="Luis"/>
+        <property name="ph">
+            <list>
+                <ref bean="Phone4"/>
+                <ref bean="Phone5"/>
+                <ref bean="Phone6"/>
+            </list>
+        </property>
+        <property name="add" ref="Address2"/>
+    </bean>
+</beans>

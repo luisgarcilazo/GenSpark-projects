@@ -68,4 +68,9 @@ public class Goblin implements Entity {
         }
         this.y = y;
     }
+
+    @Override
+    public String toString(){
+        return name + "(strength: " + this.strength + ",health: " + this.health + ")";
+    }
 }

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d5810d7-5f54-4284-8e72-329a5e0016b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../HangmanFunctional/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/humanvsgoblinsgui/HelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/humanvsgoblinsgui/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuessTheNumber/GuessTheNumber.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../GuessTheNumber/GuessTheNumber.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/src/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HangmanFunctional/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hangman/src/test/HangmanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HangmanFunctional/src/test/HangmanTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HumanVSGoblins/src/main/java/Goblin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HumanVSGoblins/src/main/java/Goblin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HumanVSGoblins/src/main/java/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HumanVSGoblins/src/main/java/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HumanVSGoblins/src/main/java/Land.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HumanVSGoblins/src/main/java/Land.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HumanVSGoblins/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HumanVSGoblins/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HumanVSGoblins/src/test/GoblinTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HumanVSGoblins/src/test/HumanTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HumanVSGoblins/src/test/LandTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HumanVSGoblins/target/classes/Goblin.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HumanVSGoblins/target/classes/Goblin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HumanVSGoblins/target/classes/Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HumanVSGoblins/target/classes/Land$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HumanVSGoblins/target/classes/Land.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HumanVSGoblins/target/classes/Main.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NnFKYvoSAS6lAN5t1AYgDTyV11" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.humanvsgoblinsgui.HelloApplication" />
+      <module name="HumanVSGoblinsGUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.humanvsgoblinsgui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d5810d7-5f54-4284-8e72-329a5e0016b0" name="Changes" comment="" />
+      <created>1680291878502</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680291878502</updated>
+    </task>
+    <servers />
+  </component>
+</project>

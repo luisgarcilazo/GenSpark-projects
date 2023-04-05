@@ -85,6 +85,7 @@ public class Land {
                 case -1:
                     //entity trying to move received damage
                     if(entity.getHealth() <= 0){
+                        System.out.println("You took a hit!");
                         return -1;
                     }
                 case 0:
@@ -100,6 +101,9 @@ public class Land {
                         entity.setX(newX);
                         entity.setY(newY);
                         return 1;
+                    } else{
+                        System.out.println("The unit at this spot is still alive. Try again next turn.");
+                        return 0;
                     }
             }
         }
@@ -123,12 +127,12 @@ public class Land {
     @Override
     public String toString(){
         String s = "";
-        for(int i = 0; i < this.width; i++){
-            for(int j = 0; j < this.height; j++){
-                if(getEntityAt(i,j) != null){
-                    s = s + " " + getEntityAt(i,j).getUTFChar();
+        for(int i = 0; i < this.height; i++){
+            for(int j = 0; j < this.width; j++){
+                if(getEntityAt(j,i) != null){
+                    s = s + " " + getEntityAt(j,i).getUTFChar();
                 } else {
-                    if(j == 0 || j == this.height - 1){
+                    if(i == 0 || i == this.height - 1){
                         s = s + " |";
                     } else {
                         s = s+ " _";
